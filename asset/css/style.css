@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.ff_inter {
+  font-family: 'Inter', sans-serif;
+}
+.text_gray {
+  color: #808080;
+}
+.fs_36 {
+  font-size: 36px;
+}
+.fs_16 {
+  font-style: 16px;
+}
+.box {
+  background: #ffffff;
+  box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  max-width: 542px;
+  min-height: 548px;
+}
+.bg_light_white {
+  background-color: #f6f6f6;
+}
+.border_1 {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.d_flex {
+  display: flex;
+}
+.flex_column {
+  flex-direction: column;
+}
+.justify_content_center {
+  justify-content: center;
+}
+.align_items_center {
+  align-items: center;
+}
+.vh_100 {
+  min-height: 100vh;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.text_center {
+  text-align: center;
+}
+.mb_5 {
+  margin-bottom: 3rem;
+}
+.my_4 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.p_3 {
+  padding: 1rem;
+}
+.w_100 {
+  width: 100%;
+}
+.py_2 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.px_2 {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+.mt_8 {
+  margin-top: 8px;
+}
+select {
+  border-color: #e6e6e6;
+}
+.reset_btn {
+  background: linear-gradient(97.42deg, #128dff -4.95%, #1444ef 109.04%);
+  border-radius: 4px;
+  border: none;
+  padding: 13px 35px;
+}
+.text_white {
+  color: #ffffff;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.mt_00 {
+  margin-top: 20px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ens">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>task_4</title>
+  <!-- My css -->
+  <link rel="stylesheet" href="./asset/css/style.css" />
+</head>
+
+<body>
+  <section class="bg_light_white">
+    <div class="container">
+      <div class="d_flex flex_column justify_content_center align_items_center vh_100">
+        <h4 class="ff_inter text_gray fs_36 fw_400 mb_5">Text Editor</h4>
+        <div class="box p_3">
+          <p id="on_this_p" class="ff_inter text_center my_4 fs_36 fw_400">
+            This is sample text.
+          </p>
+          <!-- select -->
+          <form>
+            <!-- Select color -->
+            <select data-value="color" class="w_100 py_2 px_2 mt_8 ff_inter">
+              <option value="">Select color</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+            <!-- Select font size -->
+            <select data-value="fontSize" class="w_100 py_2 px_2 mt_8 ff_inter">
+              <option value="">Select font size</option>
+              <option value="28px">28px</option>
+              <option value="34px">34px</option>
+              <option value="40px">40px</option>
+            </select>
+            <!-- Select alignment -->
+            <select data-value="textAlign" class="w_100 py_2 px_2 mt_8 ff_inter">
+              <option value="">Select alignment</option>
+              <option value="start">start</option>
+              <option value="center">center</option>
+              <option value="end">end</option>
+            </select>
+            <!-- Select font family -->
+            <select data-value="fontFamily" class="w_100 py_2 px_2 mt_8 ff_inter">
+              <option value="">Select font family</option>
+              <option value="Inter">Inter</option>
+              <option value="Roboto">Roboto</option>
+              <option value="Algerian Regular">Algerian Regular</option>
+              <option value="Blackadder ITC Regular">
+                Blackadder ITC Regular
+              </option>
+            </select>
+            <!-- Select text decoration -->
+            <select data-value="textDecoration" class="w_100 py_2 px_2 mt_8 ff_inter">
+              <option value="">Select text decoration</option>
+              <option value="none">none</option>
+              <option value="underline">underline</option>
+              <option value="underline dotted red">
+                underline dotted red
+              </option>
+              <option value=" red wavy underline">
+                green wavy underline
+              </option>
+            </select>
+            <!-- Select font weight -->
+            <select data-value="fontWeight" class="w_100 py_2 px_2 mt_8 ff_inter">
+              <option value="">Select font weight</option>
+              <option value="400">400</option>
+              <option value="600">600</option>
+              <option value="800">800</option>
+            </select>
+            <!-- reset -->
+            <div class="center">
+              <button id="reset_btn" class="reset_btn ff_inter fs_16 fw_400 text_white mt_00">
+                Reset
+              </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- MY js -->
+  <script src="./asset/js/intro.js"></script>
+</body>
+
+</html>
